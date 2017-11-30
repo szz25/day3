@@ -1,0 +1,11 @@
+.main {
+    width: 100%;
+    flex: 1;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
