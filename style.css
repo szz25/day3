@@ -1,4 +1,4 @@
-* {
+    * {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -47,4 +47,13 @@ body {
 
 form {
     flex: 1;
-}
+    .main {
+        width: 100%;
+        flex: 1;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+    }
